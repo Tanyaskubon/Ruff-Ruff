@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Ruff! Ruff!</title>
+</head>
+
+<body>
+  <header>
+    <!--Navagation bar-->
+    <nav>
+      <div class='nav-wrapper #7cb342 light-green darken-1'>
+        <a href='/' class='brand-logo'>Ruff! Ruff!</a>
+        <ul id='nav-mobile' class='right hide-on-med-and-down'>
+          <!--Should we attempt to add a search bar?-->
+          <li><a href='walkers.html'>Walkers</a>
+            <!--First tab goes here-->
+          </li>
+          <li><a href='sitters.html'>Sitters</a>
+            <!--Second tab-->
+          </li>
+          <li><a href='bon-appetit.html'>Bone Appetit</a>
+            <!--third tab-->
+          </li>
+          <li><a href='sign-up.html' class='#795548 brown-text'>Sign Up!</a>
+            <!--Sign up tab-->
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--End navigation-->
+  </header>
+    <!--Slider-->
+ <section class='container section'>
+  <div class='row'>
+      <div class='col s12 l6'>
+          <h4 class='center'></h4>
+          <div class='slider'>
+              <ul class='slides'>
+                  <li><img src='assets/images/11.jpg'></li>
+                  <li><img src='assets/images/12.jpg'></li>
+                  <li><img src='assets/images/13.jpg'></li>
+                  <li><img src='assets/images/14.jpg'></li>
+                  <li><img src='assets/images/15.jpg'></li>
+              </ul>
+          </div>
+          <h6 class='center #f57c00 orange-text text-darken-2'><b>SIGN UP</b> & <b>ENJOY OUR SERVICES!   </b></h6>
+      </div>
+
+<!--Sign-up Form-->
+         <div class='col s12 l5 offset-li'>
+             <form action=''>
+                 <h4 class='center-align #f57c00 orange-text text-darken-2'>Sign Up</h4>
+
+                 <div class="input-field">
+                     <i class="material-icons prefix">account_box</i>
+                     <input type='text' id='name'>
+                     <label for='name' class='#f57c00 orange-text text-darken-2'>Enter Name Here</label>
+                 </div>
+                 <div class="input-field">
+                     <i class="material-icons prefix">email</i>
+                     <input type='email' id='email'>
+                     <label for='name' class='#f57c00 orange-text text-darken-2'>example@gmail.com</label>
+                 </div>
+                 <div class="input-field">
+                     <i class="material-icons prefix">password</i>
+                     <input type='password' id='password'>
+                     <label for='name' class='#f57c00 orange-text text-darken-2'>Your Password Here</label>
+                 </div>
+                 <div class="input-field">
+                     <i class="material-icons prefix">today</i>
+                     <input type='text' id='date'>
+                     <label for='date' class='#f57c00 orange-text text-darken-2'>Date Of Birth Here</label>
+                 </div>
+                 <div class="input-field">
+                     <p class='#f57c00 orange-text text-darken-2'>Gender</p>
+                     <p>
+                         <label>
+                             <input type='checkbox'>
+                             <span>Female</span>
+                         </label><br>
+                         <label>
+                             <input type='checkbox'>
+                             <span>Male</span>
+                         </label><br>
+                         <label>
+                             <input type='checkbox'>
+                             <span>Other</span>
+                         </label>
+                     </p>
+                     <p>
+                         <label class='#f57c00 orange-text text-darken-2'>
+                             <input type='checkbox' class='filled-in' checked='checked'>
+                             <span>I accept the <b>Terms of use & Privacy Policies</b>.</span>
+                         </label>
+                     </p>
+                     <div class='input-field center'>
+                         <button class='btn #f57c00 orange darken-2 white-text'>SIGN UP</button>
+                     </div>
+                 </div>
+             </form>
+         </div>
+  </div>
+</section>
+  
+<!--Sign-up Form-->
+    
+
+<!--Compiled and minified Jquery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+<script>
+ $(document).ready(function(){
+   $('.slider').slider
+ })
+</script>
+
+
+
+  <footer class="page-footer #795548 brown" style="bottom:0;left:0;width:100%;">
+    <h6> © 2021 Copyright Ohio State Bootcamp</h6>
+  </footer>
+
+  <!--Compiled and minified Jquery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+<script>
+ $(document).ready(function(){
+   $('.slider').slider()
+ })
+</script>
+</body>
+</html>
